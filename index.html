@@ -1,94 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ross Personal Site</title>
-  </head>
-  <body>
-    <table cellspacing="20">
-      <tr>
-        <td>
-          <img
-            width="150"
-            src="images/Ross-modified.png"
-            alt="ross profile picture"
-          />
-        </td>
-        <td>
-          <h1>About me</h1>
-          <p>
-            <em
-              >Founder of a Dayz Server called
-              <strong
-                ><a href="http://dayzdeadoralive.pingperfecthosting.com/"
-                  >Dead or Alive</a
-                ></strong
-              ></em
-            >
-          </p>
-          <p>
-            Hello my name is Ross and im the creator of the dayz Server dead or
-            Alive<br />
-            I am also a full stack devloper that is seflftaught
-          </p>
-        </td>
-      </tr>
-    </table>
 
-    <hr />
-    <h3>Schooling</h3>
-    <ul>
-      <li>Leasowes high school</li>
-      <li>Healsowen collage</li>
-    </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ross Personal Site</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
 
-    <hr />
-    <h3>Work Experince</h3>
-    <table cellspacing="10">
-      <thead>
-        <tr>
-          <th>Dates</th>
-          <th>Work</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>2010-2017</td>
-          <td>Worked at the holesale market with a family run bussnies</td>
-        </tr>
-        <tr>
-          <td>2017-2020</td>
-          <td>I worked for Birmignham Airport as an Rs1</td>
-        </tr>
-        <tr>
-          <td>2020-2023</td>
-          <td>I am now working as a team leader for DPD</td>
-        </tr>
-      </tbody>
-      <tfoot></tfoot>
-    </table>
-    <hr />
-    <h3>Skills</h3>
+<body>
+  <nav>
+    <div class="nav-container">
+      <div class="menu-container">
+        <img class="logo" src="./images/hamburger-menu.png" alt="Hamburger menu" />
+        <button class="hamburger">☰</button>
+        <h3>Ross Espley</h3>
+        <div class="nav-links">
+          <a href="#work" class="nav-link">Work</a>
+          <a href="About me.html" class="nav-link">About</a>
+          <a href="Contact-Info.html" class="nav-link">Contact</a>
+        </div>
+      </div>
 
-    <table cellspacing="10">
-      <tr>
-        <td>HTML</td>
-        <td>⭐⭐</td>
-      </tr>
-      <tr>
-        <td>javascript</td>
-        <td>⭐</td>
-      </tr>
-      <tr>
-        <td>Css</td>
-        <td>⭐</td>
-      </tr>
-    </table>
-    <hr />
-    <a href="Hobbies.html">My Hobbies</a>
-    <a href="ServerModList.html">ServerModList</a>
-    <a href="Contact-Info.html"> Contact Info</a>
-  </body>
+      <div class="tech-container">
+        <img src="./images/html-5.png" alt="HTML logo" />
+        <img src="./images/css-3.png" alt="CSS Logo" />
+        <img src="./images/javascript.png" alt="javascript Logo" />
+        <img src="./images/react.png" alt="React Logo" />
+      </div>
+    </div>
+    <div class="hamburger-list-container hidden">
+      <a href="#" class="nav-link">Work</a>
+      <a href="About me.html" class="nav-link">About</a>
+      <a href="Contact-Info.html" class="nav-link">Contact</a>
+    </div>
+  </nav>
+  <div class="socials">
+    <a href="https://twitter.com/ITzRossYo">
+      <img src="./images/icons8-twitter-96.png" alt="Twitter imgage" />
+    </a>
+    <a href="https://www.twitch.tv/itzrossyo">
+      <img src="./images/icons8-twitch-96.png" alt="twitch" />
+    </a>
+    <a href="https://github.com/itzrossyo">
+      <img src="./images/icons8-github-500.png" alt="Github image" />
+    </a>
+  </div>
+
+  <section class="main-section">
+    <img class=headshot src="./images/new headshot (1).JPG" alt="photo of Ross" </img>
+    <div class="introduction">
+      <h1>Hi, I'm Ross</h1>
+      <p>I am a Software Developer</p>
+      <p>I quit the rat race to fouce more and my next stage in my carrer</p>
+      <p>check out my work below</p>
+      <div class="bounce"><i class="arrow"></i></div>
+    </div>
+  </section>
+
+  <section class="work-section" id="work">
+
+    <div class="work-card-container">
+
+      <div class="work-card html">
+        <h6>HTML</h6>
+        <a href="">
+          <h3>Table Tennies LeaderBoard</h3>
+        </a>
+        <p>An exercise in html learning all about tables</p>
+      </div>
+
+      <div class="work-card html">
+        <h6>HTML</h6>
+        <a href="">
+          <h3>wiki clone</h3>
+        </a>
+        <p>This was my first time building out a clone</p>
+      </div>
+
+
+      <div class="work-card css">
+        <h6>HTML, CSS</h6>
+        <a href="">
+          <h3>Profile badge</h3>
+        </a>
+        <p>I created a prifle badge with htaml and css </p>
+      </div>
+
+
+      <div class="work-card css">
+        <h6>HTML, CSS</h6>
+        <a href="">
+          <h3>Fourm Project</h3>
+        </a>
+        <p>An exercise in html and css to build and style a sign up Fourm </p>
+      </div>
+
+
+
+      <div class="work-card css">
+        <h6>HTML,CSS,JS</h6>
+        <a href="">
+          <h3>Burger Menu</h3>
+        </a>
+        <p>An exercise in html and css to create a Burger menu for a restraunt </p>
+      </div>
+
+
+
+      <div class="work-card css">
+        <h6>HTML, CSS, </h6>
+        <a href="">
+          <h3>TinDog</h3>
+        </a>
+        <p>Building a Tinder Front page for dogs using html and css </p>
+      </div>
+
+      <div class="work-card css">
+        <h6>HTML, CSS, </h6>
+        <a href="">
+          <h3>Photo carousel</h3>
+        </a>
+        <p>using just css and html i designed a litte photo carousel</p>
+      </div>
+
+
+      <div class="work-card js">
+        <h6>HTML, CSS, javascript</h6>
+        <a href="">
+          <h3>Falling hearts</h3>
+        </a>
+        <p>using javascript i create a set of hearts the fall donw from the top </p>
+      </div>
+      <div class="work-card js">
+        <h6>HTML, CSS, javascript</h6>
+        <a href="">
+          <h3>Pomodoro Timer</h3>
+        </a>
+        <p>I create a Pomodoro timer that counts down each task, and thn deletes the task once it runs out of time</p>
+      </div>
+      <div class="work-card js">
+        <h6>HTML, CSS, javascript</h6>
+        <a href="">
+          <h3>Unit Converter</h3>
+        </a>
+        <p>I create an app that converts all types of temperature. I do this with a drop-donw as well as inputs</p>
+      </div>
+      <div class="work-card js">
+        <h6>HTML, CSS, javascript</h6>
+        <a href="">
+          <h3>Pong game</h3>
+        </a>
+        <p>Building out the calssic pong game for the weekly challange </p>
+      </div>
+      <div class="work-card js">
+        <h6>HTML, CSS, javascript</h6>
+        <a href="">
+          <h3>TBA</h3>
+        </a>
+        <p>An exercise in html and css learning all about layout and meida
+          funcions to create a basic app.</p>
+      </div>
+      <div class="work-card js">
+        <h6>HTML, CSS, javascript</h6>
+        <a href="">
+          <h3>TBA</h3>
+        </a>
+        <p>An exercise in html and css learning all about layout and meida
+          funcions to create a basic app.</p>
+      </div>
+      <div class="work-card react">
+        <h6>HTML, CSS, javascript, React</h6>
+        <a href="">
+          <h3>Travel App</h3>
+        </a>
+        <p>An exercise in html and css learning all about layout and meida
+          funcions to create a basic app.</p>
+      </div>
+      <div class="work-card react">
+        <h6>HTML, CSS, javascript, React</h6>
+        <a href="">
+          <h3>TBA</h3>
+        </a>
+        <p>An exercise in html and css learning all about layout and meida
+          funcions to create a basic app.</p>
+      </div>
+      <div class="work-card react">
+        <h6>HTML, CSS, javascript, React</h6>
+        <a href="">
+          <h3>TBA</h3>
+        </a>
+        <p>An exercise in html and css learning all about layout and meida
+          funcions to create a basic app.</p>
+      </div>
+      <div class="work-card react">
+        <h6>HTML, CSS, javascript, React</h6>
+        <a href="">
+          <h3>TBA</h3>
+        </a>
+        <p>An exercise in html and css learning all about layout and meida
+          funcions to create a basic app.</p>
+      </div>
+
+      <div class="work-card react">
+        <h6>HTML, CSS, javascript, React, phaser</h6>
+        <a href="">
+          <h3>Simple Js Game</h3>
+        </a>
+        <p>I started to build out a game using the phaser libary maybe one of my biggest projects i have started.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section></section>
+
+  <footer></footer>
+  </section>
+
+  <script app.js></script>
+</body>
+
 </html>
