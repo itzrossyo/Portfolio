@@ -237,3 +237,13 @@ p {
 .react {
   border-top: solid 8px rgb(22, 214, 221);
 }
+
+.about-me h4 {
+  text-align: center;
+  margin: 4px;
+}
+
+#statement {
+  text-align: left;
+  border-top: 2px solid rgb(22, 214, 221);
+}
