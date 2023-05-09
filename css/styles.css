@@ -74,6 +74,10 @@ nav .hamburger-list-container .nav-link {
   margin-top: 15px;
 }
 
+.work-card:hover {
+  transform: scale(1.1);
+}
+
 @media (max-width: 1000px) {
   nav h3 {
     display: none;
@@ -251,6 +255,3 @@ p {
   text-align: left;
   border-top: 2px solid rgb(22, 214, 221);
 }
-/* div {
-  display: flex;
-} */
