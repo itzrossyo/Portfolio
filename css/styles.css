@@ -253,6 +253,9 @@ p {
 .react {
   border-top: solid 8px rgb(22, 214, 221);
 }
+.python{
+  border-top: solid 8px rgb(100, 173, 47)
+}
 
 .about-me {
   margin-top: 0px;
@@ -262,9 +265,7 @@ p {
   text-align: center;
   margin: 4px;
 }
-.navbarnavbar-expand-lgstyle=background-color: rgb {
-  margin-bottom: 0px;
-}
+
 
 #statement {
   text-align: left;
